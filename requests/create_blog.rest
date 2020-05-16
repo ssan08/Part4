@@ -1,0 +1,11 @@
+
+POST http://localhost:3003/api/blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNzMSIsImlkIjoiNWViZjM3M2NjMjg3NmQwOWQ1NjZjYjNjIiwiaWF0IjoxNTg5NTk1NDAwfQ.BVFnfdELGElMM2A2-YDBuR3If-67uyBKmF6X5UDJcU4
+content-type: application/json
+
+{
+    "title" : "titletoken10",
+    "author" : "authortoken10",
+    "url" : "......",
+    "likes" : 10
+}
